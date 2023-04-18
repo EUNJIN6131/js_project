@@ -1,0 +1,37 @@
+header {
+    display: block;
+    align-items: center;
+    text-align: left;
+}
+
+h2 {
+    color: red;
+    font-size: 20px;
+
+}
+
+#d1 {
+    display:block;
+    align-items: center;
+    justify-content: center;
+}
+
+.g1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* add this line to remove the margin */
+    padding: 0; /* add this line to remove the padding */
+    
+}   
+.box {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    height: 100px;
+    width: 100px;
+    
+
+}
