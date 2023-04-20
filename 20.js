@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 //폭탄 하트 구분
                 if (arr[n - 1] == 0) {
                     //하트
-                    box.innerHTML = '<img src ="./images/hart.png">';
+                    box.innerHTML = '<img src ="./hart.png">';
                     if (cnt == 8) {
                         flag = true;
                         document.querySelector('h2').innerHTML = "성공!!!"
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 } else {
                     //폭탄
-                    box.innerHTML = '<img src ="./images/boom.png">';
+                    box.innerHTML = '<img src ="./boom.png">';
                     flag = true;
                     document.querySelector('h2').innerHTML = '실패!!!';
                 }
